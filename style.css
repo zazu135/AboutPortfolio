@@ -1,0 +1,110 @@
+:root {
+  --primary-color: #d87f8e;
+  --secondary-color: #d87f8e;
+  --box-shadow: 0 5px 10px hsl(348, 3%, 39%);
+}
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-size: 40px;
+  margin-top: 70px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 24px;
+  margin-top: 20px;
+  opacity: 0.7;
+}
+
+.container {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.7rem);
+  padding-left: var(--bs-gutter-x, 0.7rem);
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 75px;
+}
+
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  box-shadow: var(--box-shadow);
+}
+
+.navigation-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.contact-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.about-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+p {
+  background: white;
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.about-paragraphs p {
+  margin: 10px;
+}
+
+.about-paragraphs {
+  display: flex;
+  margin: 30px 0;
+  
+}
+
+.contact h2 {
+  font-size: 30px;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.launch {
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+}
